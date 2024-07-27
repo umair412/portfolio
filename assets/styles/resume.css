@@ -1,0 +1,47 @@
+.data h1{
+    font-weight: 500;
+}
+.data h2{
+    font-weight: 500;
+}
+.data h3, .data h4, .data h5{
+    font-weight: 500;
+}
+.data i{
+    float: left;
+}
+.education{
+    margin-top: 40px;
+}
+.education i{
+    border: 1px solid whitesmoke;
+    padding: 7px;
+    border-radius: 100%;
+}
+.education h2, .education h3, .education h4, .education h5{
+    margin-left: 60px;
+}
+.side-line{
+    border-left: 1px solid green;
+    height: 500px;
+    position: absolute;
+    left: 32.83%;
+    top: 35%;
+    border-top-left-radius: 100%;
+    z-index: 2;
+}
+.fa-circle-small{
+    background-color: black;
+    border: none;
+    margin-left: 9px;
+    z-index: 5;
+}
+.education h3{
+    margin-top: -7px;
+}
+.education h4{
+    color: #183D3D;
+}
+.spacer{
+    height: 50px;
+}

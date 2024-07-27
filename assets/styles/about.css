@@ -1,0 +1,53 @@
+.data h1{
+    font-weight: 500;
+}
+.data h2{
+    font-weight: 500;
+}
+.data h3{
+    font-weight: 500;
+}
+.skill-sections i{
+    font-size: 35px;
+    float: left;
+    color: #183D3D;
+    margin-top: 5px;
+}
+.web-dev, .web-des{
+    padding: 20px;
+    background-color: #93B1A6;
+    border-radius: 10px;
+    width: 50%;
+    padding-right: 40px;
+}
+.web-dev{
+    margin-right: 20px;
+}
+.web-des{
+    margin-left: 20px;
+}
+.web-dev p, .web-dev h3, .web-des p, .web-des h3{
+    margin-left: 60px;
+}
+.skill-sections{
+    display: flex;
+    margin-top: 10px;
+}
+@media (max-width:600px){
+    .web-dev, .web-des{
+        min-width: 75% !important;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .skill-sections{
+        display: block;
+    }
+}
+@media (min-width:600px) and (max-width:768px){
+    .web-des, .web-dev{
+        max-width: 37%;
+    }
+    .web-des{
+        margin-left: 5px;
+    }
+}
