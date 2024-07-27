@@ -1,7 +1,7 @@
 let navigation = document.querySelectorAll(".navigation");
 let mainData = document.querySelector(".data");
 
-for(let i = 0; i < 4; i++){
+for(let i = 0; i < 8; i++){
     if(window.location.href === navigation[i].href){
         navigation[i].style.color = "#183D3D";
     }
