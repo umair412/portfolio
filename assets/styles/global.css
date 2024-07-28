@@ -30,12 +30,14 @@ body{
 }
 .title{
     color: white;
-    margin: 0 80px;
     background-color: #93B1A6;
     border-radius: 5px;
     padding: 5px 15px;
     font-weight: 400;
-    width: 40%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+
 }
 .divider{
     border-top: 1px solid whitesmoke;
@@ -121,7 +123,11 @@ body{
 }
 @media (min-width:600px) and (max-width:768px){
     .sidebar{
-        display: none;
+        position: absolute;
+        width: 0;
+        visibility: hidden;
+        z-index: 2;
+        margin: 0;
     }
     .mainpage{
         width: 97vw;
@@ -135,11 +141,29 @@ body{
         visibility: visible;
         margin-left: 40px;
         margin-top: 20px;
+        cursor: pointer;
+
+    }
+    .fa-arrow-left{
+        position: absolute;
+        right: 40px;
+        font-size: 30px;
+        cursor: pointer;
+
     }
 }
 @media only screen and (max-width: 600px){
-    .menu, .sidebar{
+    .menu{
         display: none;
+    }
+    .sidebar{
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        width: 0;
+        z-index: 2;
+        margin: 0;
+
     }
     .fa-bars{
         visibility: visible;
@@ -178,9 +202,17 @@ body{
         visibility: visible;
         margin-left: 40px;
         margin-top: 20px;
+        cursor: pointer;
+
     }
     .data{
         position: relative;
         z-index: 1;
+    }
+    .fa-arrow-left{
+        position: absolute;
+        right: 40px;
+        font-size: 30px;
+        cursor: pointer;
     }
 }
