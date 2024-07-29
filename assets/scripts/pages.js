@@ -15,6 +15,7 @@ for(let i = 0; i < 8; i++){
 
 let showOffCanvas = () => {
     offCanvas.style.transition = "width 1s ease-out";
+    offCanvas.style.visibility = "visible";
     offCanvas.style.width = "200px";
     offCanvas.style.right = "10px";
     offCanvas.style.padding = "20px 20px";
@@ -23,9 +24,10 @@ let hideOffCanvas = () => {
     offCanvas.style.transition = "width 1s ease-in";
     offCanvas.style.width = "0";
     offCanvas.style.right = "0";
+
     setTimeout(() => {
         offCanvas.style.padding = "20px 0";
-
+        offCanvas.style.visibility = "hidden";
     }, "1000");
 
 }

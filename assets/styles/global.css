@@ -115,7 +115,7 @@ body{
     border: 3px solid #183D3D;
     border-radius: 20px;
 }
-.fa-bars, .fa-user{
+.fa-bars, .fa-user, .fa-arrow-left{
     visibility: hidden;
 }
 .off-canvas{
@@ -155,6 +155,7 @@ body{
 @media only screen and (max-width: 600px){
     .menu{
         display: none;
+        width: 0;
     }
     .sidebar{
         position: absolute;
@@ -184,6 +185,7 @@ body{
         border-radius: 20px;
         width: 0;
         display: block;
+        visibility: hidden;
     }
     .off-canvas a{
         color: white;
@@ -197,6 +199,7 @@ body{
         width: 97vw;
         padding: 0;
         margin: 10px;
+        overflow-x: hidden;
     }
     .fa-user{
         visibility: visible;
