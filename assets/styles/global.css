@@ -142,14 +142,15 @@ body{
         margin-left: 40px;
         margin-top: 20px;
         cursor: pointer;
-
+        visibility: visible;
     }
     .fa-arrow-left{
         position: absolute;
         right: 40px;
         font-size: 30px;
         cursor: pointer;
-
+        visibility: visible;
+        
     }
 }
 @media only screen and (max-width: 600px){
@@ -217,5 +218,6 @@ body{
         right: 40px;
         font-size: 30px;
         cursor: pointer;
+        visibility: visible;
     }
 }
